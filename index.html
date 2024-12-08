@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <link rel="stylesheet" href="styles.css">
-    <title>David Giraldo</title>
-  </head>
-
-  <body>
-    <div>
-        <h1>David Giraldo</h1>
+<head>
+    <title>My Bio Page</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="bio" class="col-12 col-lg-6 text-center">
+                <h1>David Giraldo</h1>
+                <img src="photo.jpg" class="img-fluid">
+            </div>
+            <div id="more" class="col-12 col-lg-6">
+                <h2>Software Tools</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>FastAPI</li>
+                    <li>SQL</li>
+                    <li>AWS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+                <h2>Work Experiences</h2>
+                <ol>
+                    <li>2NV / Backend Developer</li>
+                    <li>Source Meridian / FullStack Developer</li>
+                </ol>
+                <a href="https://github.com/David-g10" class="btn btn-primary">My Github Profile</a>
+            </div>
+        </div>
     </div>
-    <div>
-        <img id="photo" src="photo.jpg">
-    </div>
-    <div>
-        <h2>Favorite Music Artists</h2>
-        <ul>
-            <li>Lewis Capaldi</li>
-            <li>Gioli & Assia</li>
-            <li>Eminem</li>
-            <li>Reels b</li>
-            <li>Feid</li>
-        </ul>
-    </div>
-    <div>
-        <h2>Favorite Films</h2>
-        <ol>
-            <li>Harry potter</li>
-            <li>Demon Slayer</li>
-            <li>Intensamente</li>
-            <li>Interestelar</li>
-            <li>Juego de tronos</li>
-        </ol>        
-    </div>
-    <div>
-        <a href="https://www.meta.com/">My Profile</a>
-    </div>
-  </body>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
 </html>
